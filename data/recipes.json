@@ -13,7 +13,7 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "1. Fry the fish. 2. Prepare the sauce with vinegar, sugar, and spices. 3. Pour the sauce over the fried fish.",
+        "instructions": "Fry the fish. Prepare the sauce with vinegar, sugar, and spices. Pour the sauce over the fried fish.",
         "label": "seafood"
     },
     {
@@ -28,7 +28,7 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "1. Preheat the oven. 2. Season the salmon. 3. Bake with garlic and butter. 4. Serve with lemon and parsley.",
+        "instructions": "Preheat the oven. Season the salmon. Bake with garlic and butter. Serve with lemon and parsley.",
         "label": "seafood"
     },
     {
@@ -46,7 +46,7 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "1. Saut\u00e9 garlic and onion. 2. Add chicken and cook until light brown. 3. Add vegetables and pineapple. 4. Pour in milk and fish sauce. 5. Simmer until cooked.",
+        "instructions": "Saut\u00e9 garlic and onion. Add chicken and cook until light brown. Add vegetables and pineapple. Pour in milk and fish sauce. Simmer until cooked.",
         "label": "chicken"
     },
     {
@@ -64,7 +64,7 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "1. Saut\u00e9 garlic, onion, and ginger. 2. Add chicken and cook until brown. 3. Stir in shrimp paste and chili. 4. Pour in coconut milk and add green beans. 5. Simmer until beans are tender.",
+        "instructions": "Saut\u00e9 garlic, onion, and ginger. Add chicken and cook until brown. Stir in shrimp paste and chili. Pour in coconut milk and add green beans. Simmer until beans are tender.",
         "label": "chicken"
     },
     {
@@ -81,7 +81,7 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "1. Saut\u00e9 garlic, onion, and tomato. 2. Add chicken and cook until brown. 3. Stir in shrimp paste, vinegar, and sugar. 4. Simmer until chicken is cooked through.",
+        "instructions": "Saut\u00e9 garlic, onion, and tomato. Add chicken and cook until brown. Stir in shrimp paste, vinegar, and sugar. Simmer until chicken is cooked through.",
         "label":"chicken"
     },
     {
@@ -100,7 +100,7 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "1. Saut\u00e9 garlic and onion. 2. Add beef and cook until brown. 3. Stir in tomato sauce and liver spread. 4. Add vegetables and simmer until tender.",
+        "instructions": "Saut\u00e9 garlic and onion. Add beef and cook until brown. Stir in tomato sauce and liver spread. Add vegetables and simmer until tender.",
         "label": "beef"
     },
     {
@@ -117,7 +117,7 @@
             "Pepper",
             "Pastry Dough"
         ],
-        "instructions": "1. Cook beef with garlic and onion. 2. Add vegetables and raisins. 3. Fill pastry dough with mixture. 4. Bake until golden brown.",
+        "instructions": "Cook beef with garlic and onion. Add vegetables and raisins. Fill pastry dough with mixture. Bake until golden brown.",
         "label": "beef"
     },
     {
@@ -134,7 +134,7 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "1. Saut\u00e9 garlic and onion. 2. Add beef and cook until brown. 3. Add vegetables and water. 4. Stir in curry roux and simmer until thickened.",
+        "instructions": "Saut\u00e9 garlic and onion. Add beef and cook until brown. Add vegetables and water. Stir in curry roux and simmer until thickened.",
         "label": "beef"
     },
     {
@@ -150,7 +150,7 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "1. Saut\u00e9 garlic and onion. 2. Add beef and cook until brown. 3. Add mushrooms and cream. 4. Simmer until thickened.",
+        "instructions": "Saut\u00e9 garlic and onion. Add beef and cook until brown. Add mushrooms and cream. Simmer until thickened.",
         "label": "beef"
     },
     {
@@ -168,7 +168,7 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "1. Boil beef with garlic, onion, and peppercorn. 2. Add vegetables. 3. Season with fish sauce. 4. Simmer until beef is tender.",
+        "instructions": "Boil beef with garlic, onion, and peppercorn. Add vegetables. Season with fish sauce. Simmer until beef is tender.",
         "label": "beef"
     },
     {
@@ -185,7 +185,7 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "1. Boil oxtail with garlic and onion. 2. Add vegetables. 3. Stir in peanut butter. 4. Simmer until tender.",
+        "instructions": "Boil oxtail with garlic and onion. Add vegetables. Stir in peanut butter. Simmer until tender.",
         "label": "beef"
     },
     {
@@ -201,7 +201,7 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "1. Boil beef shank with garlic, onion, and ginger. 2. Add banana blossom and peanuts. 3. Simmer until tender.",
+        "instructions": "Boil beef shank with garlic, onion, and ginger. Add banana blossom and peanuts. Simmer until tender.",
         "label":"beef"
     },
     {
@@ -218,7 +218,7 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "1. Cook macaroni. 2. Saut\u00e9 garlic and onion. 3. Add ground beef and tomato sauce. 4. Mix with macaroni.",
+        "instructions": "Cook macaroni. Saut\u00e9 garlic and onion. Add ground beef and tomato sauce. Mix with macaroni.",
         "label":"other"
     },
     {
@@ -235,7 +235,7 @@
             "1 tbsp sugar",
             "1 cup water"
         ],
-        "instructions": "1. Marinate chicken in soy sauce and garlic. 2. Saut\u00e9 onion and garlic. 3. Add marinated chicken and bay leaf. 4. Pour in vinegar and water. 5. Simmer until chicken is tender. 6. Add sugar, stir well, and simmer for another 5 minutes.",
+        "instructions": "Marinate chicken in soy sauce and garlic. Saut\u00e9 onion and garlic. Add marinated chicken and bay leaf. Pour in vinegar and water. Simmer until chicken is tender. 6. Add sugar, stir well, and simmer for another 5 minutes.",
         "label":"chicken"
     },
     {
@@ -252,7 +252,7 @@
             "1 pack sinigang mix",
             "2 green chili peppers"
         ],
-        "instructions": "1. Boil pork with water, onion, and tomatoes. 2. Add radish and eggplant. 3. Stir in sinigang mix and green chili. 4. Add kangkong leaves. 5. Simmer until vegetables are tender.",
+        "instructions": "Boil pork with water, onion, and tomatoes. Add radish and eggplant. Stir in sinigang mix and green chili. Add kangkong leaves. Simmer until vegetables are tender.",
         "label":"pork"
     },
     {
@@ -269,7 +269,7 @@
             "4 cloves garlic",
             "2 tbsp shrimp paste"
         ],
-        "instructions": "1. Boil oxtail until tender. 2. Saut\u00e9 garlic and onion. 3. Add peanut butter and annatto water. 4. Add vegetables and simmer. 5. Serve with shrimp paste.",
+        "instructions": "Boil oxtail until tender. Saut\u00e9 garlic and onion. Add peanut butter and annatto water. Add vegetables and simmer. Serve with shrimp paste.",
         "label":"beef"
     },
     {
@@ -282,7 +282,7 @@
             "4 cups water",
             "2 cups cooking oil"
         ],
-        "instructions": "1. Boil pork belly with salt and pepper until tender. 2. Let it cool and air dry. 3. Deep-fry until crispy. 4. Slice and serve with dipping sauce.",
+        "instructions": "Boil pork belly with salt and pepper until tender. Let it cool and air dry. Deep-fry until crispy. Slice and serve with dipping sauce.",
         "label":"pork"
     },
     {
@@ -296,7 +296,7 @@
             "4 cloves garlic",
             "1/4 cup cooking oil"
         ],
-        "instructions": "1. Marinate beef in soy sauce and lemon juice. 2. Fry garlic and onions. 3. Add marinated beef and cook until tender. 4. Serve with fried onions on top.",
+        "instructions": "Marinate beef in soy sauce and lemon juice. Fry garlic and onions. Add marinated beef and cook until tender. Serve with fried onions on top.",
         "label":"beef"
     },
     {
@@ -313,7 +313,7 @@
             "1/4 cup soy sauce",
             "2 cups chicken broth"
         ],
-        "instructions": "1. Saut\u00e9 garlic and onion. 2. Add chicken and shrimp. 3. Add vegetables. 4. Pour in chicken broth and soy sauce. 5. Add pancit canton noodles. 6. Simmer until noodles are cooked.",
+        "instructions": "Saut\u00e9 garlic and onion. Add chicken and shrimp. Add vegetables. Pour in chicken broth and soy sauce. Add pancit canton noodles. 6. Simmer until noodles are cooked.",
         "label":"other"
     },
     {
@@ -328,7 +328,7 @@
             "1 tsp pepper",
             "1/4 cup annatto water"
         ],
-        "instructions": "1. Marinate pork in pineapple juice, sugar, soy sauce, salt, pepper, and annatto water. 2. Let it sit overnight. 3. Fry marinated pork until cooked. 4. Serve with rice.",
+        "instructions": "Marinate pork in pineapple juice, sugar, soy sauce, salt, pepper, and annatto water. Let it sit overnight. Fry marinated pork until cooked. Serve with rice.",
         "label":"pork"
     },
     {
@@ -345,7 +345,7 @@
             "1/4 cup vinegar",
             "1 lemon"
         ],
-        "instructions": "1. Boil and grill pork belly and pig's ear. 2. Chop into small pieces. 3. Saut\u00e9 garlic and onion. 4. Add chopped pork, soy sauce, and vinegar. 5. Serve with egg on top.",
+        "instructions": "Boil and grill pork belly and pig's ear. Chop into small pieces. Saut\u00e9 garlic and onion. Add chopped pork, soy sauce, and vinegar. Serve with egg on top.",
         "label":"pork"
     },
     {
@@ -362,7 +362,7 @@
             "1/4 cup soy sauce",
             "2 cups water"
         ],
-        "instructions": "1. Saut\u00e9 garlic and onion. 2. Add chicken and cook until brown. 3. Add tomato sauce and water. 4. Add vegetables and simmer until tender.",
+        "instructions": "Saut\u00e9 garlic and onion. Add chicken and cook until brown. Add tomato sauce and water. Add vegetables and simmer until tender.",
         "label":"chicken"
     },
     {
@@ -375,7 +375,7 @@
             "4 cups water",
             "2 cups cooking oil"
         ],
-        "instructions": "1. Boil pork leg with salt and pepper until tender. 2. Let it cool and air dry. 3. Deep-fry until crispy. 4. Slice and serve with dipping sauce.",
+        "instructions": "Boil pork leg with salt and pepper until tender. Let it cool and air dry. Deep-fry until crispy. Slice and serve with dipping sauce.",
         "label":"pork"
     },
     {
@@ -392,7 +392,7 @@
             "1/4 cup soy sauce",
             "2 cups water"
         ],
-        "instructions": "1. Saut\u00e9 garlic and onion. 2. Add beef and cook until brown. 3. Add tomato sauce and water. 4. Add vegetables and simmer until tender.",
+        "instructions": "Saut\u00e9 garlic and onion. Add beef and cook until brown. Add tomato sauce and water. Add vegetables and simmer until tender.",
         "label":"beef"
     },
     {
@@ -409,7 +409,7 @@
             "4 cloves garlic",
             "1/4 cup shrimp paste"
         ],
-        "instructions": "1. Saut\u00e9 garlic and onion. 2. Add pork belly and cook until brown. 3. Add shrimp paste and vegetables. 4. Simmer until vegetables are tender.",
+        "instructions": "Saut\u00e9 garlic and onion. Add pork belly and cook until brown. Add shrimp paste and vegetables. Simmer until vegetables are tender.",
         "label":"pork"
     }
 ]

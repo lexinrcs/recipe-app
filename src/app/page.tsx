@@ -1,7 +1,7 @@
-'use client'
+'use client';
 import RecipeSection from "../components/recipe-section";
 import PhotoSlide from "../components/photo-slide";
-import { useRef } from "react";
+import { useRef} from "react";
 
 export default function Home() {
   const recipesRef = useRef<HTMLDivElement>(null);
@@ -20,7 +20,6 @@ const scrollToSection = (elementRef: React.RefObject<HTMLDivElement>) => {
 
 
   return (
-    <>
       <main className="flex flex-col">
         {/* Welcome Section */}
         <div className="min-h-screen">          
@@ -48,8 +47,5 @@ const scrollToSection = (elementRef: React.RefObject<HTMLDivElement>) => {
           <RecipeSection/>
         </div>
       </main>
-    
-    </>
-
   );
 }
