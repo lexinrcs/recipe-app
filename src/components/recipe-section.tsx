@@ -45,7 +45,7 @@ const RecipeSection = () => {
                 <Loader /> // Show loading indicator while fetching data
             ) : (
                 recipes.map((recipe: Recipe, index: number) => (
-                    <div key={index} className="bg-white max-w-xs border-2 border-black shadow mx-5 my-5 hover:scale-105">
+                    <div key={index} className="recipe-card bg-white max-w-xs border-2 border-black shadow mx-5 my-5 hover:scale-105">
                         <div className="m-4">
                             <Image src={recipe.image_link} alt={recipe.recipe_name} width={800} height={800}/>
                         </div>

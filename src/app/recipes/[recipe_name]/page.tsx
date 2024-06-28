@@ -50,6 +50,7 @@ export default function RecipeDetails() {
         <>
             <Head>
                 <title>GFGL | Recipe Details</title>
+                <link rel="icon" href="../../icon.ico" />
             </Head>
             <div className='min-h-screen'>
               {
@@ -59,8 +60,8 @@ export default function RecipeDetails() {
                 <>
                    {recipeDetails && (
                       <div className='min-h-screen flex flex-col items-center justify-center px-12 lg:flex-row'>
-                        <div className='mt-[130px] p-4 border-2 border-black lg:w-1/2'>
-                          <Image className='w-full h-full'
+                        <div className='mt-[130px] p-4 lg:w-1/2'>
+                          <Image className='food-image w-full h-full'
                           src={recipeDetails.image_link} alt={recipeDetails.recipe_name} width={800} height={800} />
                         </div>
 

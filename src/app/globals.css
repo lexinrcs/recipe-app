@@ -33,3 +33,7 @@
 .recipe-card:hover{
   box-shadow: rgba(17, 15, 16, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(5, 4, 5, 0.2) 15px 15px, rgba(14, 11, 13, 0.1) 20px 20px;
 }
+
+.food-image{
+  box-shadow: rgba(17, 15, 16, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(5, 4, 5, 0.2) 15px 15px, rgba(14, 11, 13, 0.1) 20px 20px,  rgba(14, 11, 13, 0.1) 25px 25px;
+}

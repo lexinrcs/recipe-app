@@ -10,16 +10,6 @@ export const metadata: Metadata = {
   description: "Recipe App",
 };
 
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
-
-const lato = Lato({
-  subsets: ["latin"],
-  weight: ["100", "300", "400", "700"],
-});
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -27,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/icon.ico" />
+      </head>
       <body>
         <Header/>
         <main>{children}</main>

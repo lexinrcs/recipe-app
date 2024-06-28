@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 export default function PhotoSlide() {
     return(
         <div className="flex items-center w-full">
-            <Swiper slidesPerView={1} spaceBetween={30} loop={true} autoplay={{delay: 3000,disableOnInteraction: false}} pagination={{clickable: true}} modules={[Pagination, Autoplay]} className="mySwiper">
+            <Swiper slidesPerView={1}loop={true} autoplay={{delay: 3000,disableOnInteraction: false}} pagination={{clickable: true}} modules={[Pagination, Autoplay]} className="mySwiper">
             <SwiperSlide>
                 <Image src={"/food-1.jpg"} alt={"food-header"}
                 width={1920}
