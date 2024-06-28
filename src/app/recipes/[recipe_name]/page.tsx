@@ -1,5 +1,5 @@
 'use client';
-import { usePathname } from 'next/navigation';
+import { usePathname, useParams } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -14,16 +14,19 @@ interface Recipe {
 };
 
 export default function RecipeDetails() {
-    const pathname = typeof usePathname() === 'string' ? usePathname() : '';
-    const recipe = pathname !== null ? pathname.split('/').pop() : '';
-    const recipe_name = decodeURIComponent(recipe ? recipe : '');
+    // const pathname = typeof usePathname() === 'string' ? usePathname() : '';
+    // const recipe = pathname !== null ? pathname.split('/').pop() : '';
+    // const recipe_name = decodeURIComponent(recipe ? recipe : '');
+
+    const params = useParams<{ recipe_name: string}>();
+
     const [loading, setLoading] = useState(true); // Track loading state
 
     const [recipeDetails, setRecipeDetails] = useState<Recipe>();
 
     const fetchRecipe = async () => {
         try {
-            const response = await fetch(`/api/recipes/${recipe_name}`, {
+            const response = await fetch(`/api/recipes/${params.recipe_name}`, {
                 headers: {
                     Accept: 'application/json',
                 }
