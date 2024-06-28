@@ -3,13 +3,16 @@ import { usePathname, useParams } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import Loader from '../../../components/Loader'; // Import your loading component
+import Loader from '../../../components/Loader'; 
+import { FaRegBookmark, FaShareAlt, FaPrint } from "react-icons/fa";
+
 
 interface Recipe {
     image_link: string;
     recipe_name: string;
     ingredients: string[];
     instructions: string;
+    description: string;
     label: string;
 };
 
@@ -59,26 +62,31 @@ export default function RecipeDetails() {
                 ) :
                 <>
                    {recipeDetails && (
-                      <div className='min-h-screen flex flex-col items-center justify-center px-12 lg:flex-row'>
+                      <div className='min-h-screen flex flex-col items-center justify-center px-8 lg:px-12 lg:flex-row'>
                         <div className='mt-[130px] p-4 lg:w-1/2'>
                           <Image className='food-image w-full h-full'
                           src={recipeDetails.image_link} alt={recipeDetails.recipe_name} width={800} height={800} />
                         </div>
 
-                        <div className=' flex flex-col justify-center items-start mx-12 space-y-8 mt-4 lg:mt-[130px] lg:w-1/2'>
+                        <div className=' flex flex-col justify-center items-start mx-8 space-y-8 mt-4 lg:px-16 lg:mt-[130px] lg:w-1/2'>
                             <div className='space-y-4'>
                                 <h1 className='text-5xl font-playfair font-bold'>{recipeDetails.recipe_name}</h1>
-                                <p className='font-lato text-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, explicabo nihil, voluptatum qui ad, atque corrupti minus voluptates alias impedit sed molestiae? Quos fugit hic vel vero veniam aperiam deserunt?</p>
+                                <div className='flex space-x-4'>
+                                    <FaRegBookmark className='text-xl hover:cursor-pointer'/>
+                                    <FaShareAlt className='text-xl hover:cursor-pointer' />
+                                    <FaPrint className='text-xl hover:cursor-pointer'/>
+                                </div>
+                                <p className='font-lato text-xl'>{recipeDetails.description}</p>
                             </div>
                             <div>
-                                <h1 className='text-xl font-lato font-bold lg:text-2xl'>Ingredients</h1>
+                                <h1 className='text-2xl font-lato font-bold lg:text-2xl'>INGREDIENTS</h1>
                                 {recipeDetails.ingredients.map ((ingredient, index) => {
                                     return <li className="list-disc font-lato text-md lg:text-lg" key={index}>{ingredient}</li>
                                 })}
 
                             </div>
                             <div className='pb-8'>
-                                <h1 className='text-xl font-lato font-bold lg:text-2xl'>Instructions</h1>
+                                <h1 className='text-2xl font-lato font-bold lg:text-2xl'>INSTRUCTIONS</h1>
                                 <h1>{recipeDetails.instructions.split(". ").map((instruction, index) => <li className="list-decimal font-lato text-md lg:text-lg" key={index}>{instruction}</li>)}</h1>
                             </div>
                         </div>

@@ -6,6 +6,7 @@ type Recipe = {
 	image_link: string;
 	recipe_name: string;
 	ingredients: string[];
+  description: string;
 	instructions: string;
 	label: string;
 }

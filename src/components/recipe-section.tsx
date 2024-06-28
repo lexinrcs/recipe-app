@@ -7,6 +7,7 @@ interface Recipe {
     image_link: string;
     recipe_name: string;
     ingredients: string[];
+    description: string;
     instructions: string;
     label: string;
 };
@@ -40,7 +41,7 @@ const RecipeSection = () => {
     }, []); // Fetch recipes only once when component mounts
 
     return (
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center pb-12">
             {loading ? (
                 <Loader /> // Show loading indicator while fetching data
             ) : (
@@ -53,7 +54,8 @@ const RecipeSection = () => {
                             <a className='hover:cursor-pointer' href={`/recipes/${recipe.recipe_name}`}>
                                 <h5 className="hover:text-gray-500 mb-2 text-2xl font-bold font-playfair tracking-tight text-gray-900 dark:text-white hover:underline">{recipe.recipe_name}</h5>
                             </a>
-                            <p className="mb-3 font-lato text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p className="mb-3 font-lato font-bold text-gray-700 dark:text-gray-400">{recipe.label.toUpperCase()}</p>
+                            <p className="mb-3 font-lato text-gray-700 dark:text-gray-400">{recipe.description}</p>
                         </div>
                     </div>
                 ))

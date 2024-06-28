@@ -15,31 +15,7 @@ interface Recipe {
 };
 
 export default function Home() {
-  const [recipes, setRecipes] = useState<Recipe[]>([]);
   const recipesRef = useRef<HTMLDivElement>(null);
-
-  const fetchRecipes = async () => {
-    try {
-      const response = await fetch('/api/get-recipes', {
-        headers: {
-          Accept: 'application/json',
-          method: "GET",
-        }
-      });
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      const data = await response.json();
-      setRecipes(data);
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
-  };
-  
-  useEffect(() => {
-    fetchRecipes();
-    console.log(recipes);
-  }, []);
 
   const handleExploreClick = () => {
     setTimeout(() => {

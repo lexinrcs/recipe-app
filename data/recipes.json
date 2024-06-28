@@ -2,6 +2,7 @@
     {
         "image_link": "https://i.pinimg.com/originals/15/e1/c3/15e1c36f47861fe8cf198746b94c041b.jpg",
         "recipe_name": "Filipino Style Escabeche",
+        "description": "A classic Filipino dish featuring fried fish topped with a sweet and tangy sauce made with vinegar, sugar, and spices.",
         "ingredients": [
             "Fish",
             "Vinegar",
@@ -19,6 +20,7 @@
     {
         "image_link": "https://www.inspiredtaste.net/wp-content/uploads/2018/09/Easy-Oven-Baked-Salmon-Recipe-2-1200.jpg",
         "recipe_name": "Baked Garlic Salmon",
+        "description": "A simple and delicious baked salmon dish seasoned with garlic and butter, perfect for a healthy and flavorful meal.",
         "ingredients": [
             "Salmon",
             "Garlic",
@@ -34,6 +36,7 @@
     {
         "image_link": "https://eatlikepinoy.com/wp-content/uploads/2021/02/Creamy-Pininyahang-Manok.jpg",
         "recipe_name": "Malapot na Pininyahang Manok",
+        "description": "A creamy Filipino chicken dish with pineapples, vegetables, and evaporated milk, creating a rich and flavorful meal.",
         "ingredients": [
             "Chicken",
             "Pineapple",
@@ -46,12 +49,13 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "Saut\u00e9 garlic and onion. Add chicken and cook until light brown. Add vegetables and pineapple. Pour in milk and fish sauce. Simmer until cooked.",
+        "instructions": "Sauté garlic and onion. Add chicken and cook until light brown. Add vegetables and pineapple. Pour in milk and fish sauce. Simmer until cooked.",
         "label": "chicken"
     },
     {
         "image_link": "https://i2.wp.com/angsarap.net/wp-content/uploads/2012/05/gising-gising.jpg",
         "recipe_name": "Chicken Gising-gising",
+        "description": "A spicy and savory chicken dish with green beans and coconut milk, flavored with shrimp paste and red chili.",
         "ingredients": [
             "Chicken",
             "Green Beans",
@@ -64,12 +68,13 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "Saut\u00e9 garlic, onion, and ginger. Add chicken and cook until brown. Stir in shrimp paste and chili. Pour in coconut milk and add green beans. Simmer until beans are tender.",
+        "instructions": "Sauté garlic, onion, and ginger. Add chicken and cook until brown. Stir in shrimp paste and chili. Pour in coconut milk and add green beans. Simmer until beans are tender.",
         "label": "chicken"
     },
     {
         "image_link": "https://yummykitchentv.com/wp-content/uploads/2022/03/chicken-binagoongan-1200x822.jpg",
         "recipe_name": "Chicken Binagoongan",
+        "description": "A flavorful Filipino chicken dish cooked with shrimp paste, vinegar, and sugar, creating a savory and slightly sweet taste.",
         "ingredients": [
             "Chicken",
             "Shrimp Paste",
@@ -81,12 +86,13 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "Saut\u00e9 garlic, onion, and tomato. Add chicken and cook until brown. Stir in shrimp paste, vinegar, and sugar. Simmer until chicken is cooked through.",
-        "label":"chicken"
+        "instructions": "Sauté garlic, onion, and tomato. Add chicken and cook until brown. Stir in shrimp paste, vinegar, and sugar. Simmer until chicken is cooked through.",
+        "label": "chicken"
     },
     {
         "image_link": "https://i.ytimg.com/vi/WgcHnWy-Mz0/maxresdefault.jpg",
         "recipe_name": "Batangas Kaldereta",
+        "description": "A hearty Filipino beef stew made with tomato sauce, liver spread, and a variety of vegetables, simmered to tender perfection.",
         "ingredients": [
             "Beef",
             "Tomato Sauce",
@@ -100,12 +106,13 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "Saut\u00e9 garlic and onion. Add beef and cook until brown. Stir in tomato sauce and liver spread. Add vegetables and simmer until tender.",
+        "instructions": "Sauté garlic and onion. Add beef and cook until brown. Stir in tomato sauce and liver spread. Add vegetables and simmer until tender.",
         "label": "beef"
     },
     {
         "image_link": "https://www.theanthonykitchen.com/wp-content/uploads/2019/04/Mexican-Empanadas-with-Beef-and-Cheese-10.jpg",
         "recipe_name": "Beef Empanadas",
+        "description": "Savory pastries filled with a delicious mixture of beef, vegetables, and raisins, baked to golden brown perfection.",
         "ingredients": [
             "Beef",
             "Potato",
@@ -123,6 +130,7 @@
     {
         "image_link": "https://i0.wp.com/www.mrspskitchen.net/wp-content/uploads/TDP1678.jpg?ssl=1",
         "recipe_name": "Japanese Curry",
+        "description": "A comforting and flavorful Japanese curry made with beef, potatoes, carrots, and a rich curry roux.",
         "ingredients": [
             "Beef",
             "Potato",
@@ -134,12 +142,13 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "Saut\u00e9 garlic and onion. Add beef and cook until brown. Add vegetables and water. Stir in curry roux and simmer until thickened.",
+        "instructions": "Sauté garlic and onion. Add beef and cook until brown. Add vegetables and water. Stir in curry roux and simmer until thickened.",
         "label": "beef"
     },
     {
         "image_link": "https://panlasangpinoy.com/wp-content/uploads/2023/05/creamy-beef-with-mushroom.jpg",
         "recipe_name": "Creamy Beef with Mushroom",
+        "description": "A rich and creamy beef dish with mushrooms, sautéed in butter and combined with a luscious cream sauce.",
         "ingredients": [
             "Beef",
             "Mushroom",
@@ -150,12 +159,13 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "Saut\u00e9 garlic and onion. Add beef and cook until brown. Add mushrooms and cream. Simmer until thickened.",
+        "instructions": "Sauté garlic and onion. Add beef and cook until brown. Add mushrooms and cream. Simmer until thickened.",
         "label": "beef"
     },
     {
         "image_link": "https://assets.unileversolutions.com/recipes-v2/214402.png",
         "recipe_name": "Better Beef Nilaga",
+        "description": "A traditional Filipino beef soup with potatoes, cabbage, and green beans, seasoned with fish sauce and peppercorns.",
         "ingredients": [
             "Beef",
             "Potato",
@@ -174,6 +184,7 @@
     {
         "image_link": "https://panlasangpinoy.com/wp-content/uploads/2023/04/ox-tail-kare-kare-recipe-1024x683.jpg",
         "recipe_name": "Kare Kare Buntot ng Baka",
+        "description": "A rich and flavorful Filipino stew made with oxtail, peanut butter, and vegetables like banana heart and eggplant.",
         "ingredients": [
             "Oxtail",
             "Peanut Butter",
@@ -191,6 +202,7 @@
     {
         "image_link": "https://images.deliveryhero.io/image/foodpanda/recipes/balbacua-recipe-2.jpg",
         "recipe_name": "Balbacua",
+        "description": "A slow-cooked Filipino beef stew with banana blossom and peanuts, known for its rich and hearty flavors.",
         "ingredients": [
             "Beef Shank",
             "Banana Blossom",
@@ -202,11 +214,12 @@
             "Pepper"
         ],
         "instructions": "Boil beef shank with garlic, onion, and ginger. Add banana blossom and peanuts. Simmer until tender.",
-        "label":"beef"
+        "label": "beef"
     },
     {
         "image_link": "https://yummykitchentv.com/wp-content/uploads/2021/05/no-bake-macaroni-recipe-yummy-kitchen.jpg",
         "recipe_name": "No Bake Macaroni",
+        "description": "A quick and easy macaroni dish with ground beef, tomato sauce, and cheese, perfect for a hassle-free meal.",
         "ingredients": [
             "Macaroni",
             "Ground Beef",
@@ -218,12 +231,13 @@
             "Salt",
             "Pepper"
         ],
-        "instructions": "Cook macaroni. Saut\u00e9 garlic and onion. Add ground beef and tomato sauce. Mix with macaroni.",
-        "label":"other"
+        "instructions": "Cook macaroni. Sauté garlic and onion. Add ground beef and tomato sauce. Mix with macaroni.",
+        "label": "other"
     },
     {
         "image_link": "https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_2000/https://norecipes.com/wp-content/uploads/2017/12/chicken-adobo_008.jpg",
         "recipe_name": "Chicken Adobo",
+        "description": "A popular Filipino dish featuring chicken marinated in soy sauce and garlic, then simmered with vinegar and spices.",
         "ingredients": [
             "2 lbs chicken",
             "1/4 cup soy sauce",
@@ -235,12 +249,13 @@
             "1 tbsp sugar",
             "1 cup water"
         ],
-        "instructions": "Marinate chicken in soy sauce and garlic. Saut\u00e9 onion and garlic. Add marinated chicken and bay leaf. Pour in vinegar and water. Simmer until chicken is tender. 6. Add sugar, stir well, and simmer for another 5 minutes.",
-        "label":"chicken"
+        "instructions": "Marinate chicken in soy sauce and garlic. Sauté onion and garlic. Add marinated chicken and bay leaf. Pour in vinegar and water. Simmer until chicken is tender. Add sugar, stir well, and simmer for another 5 minutes.",
+        "label": "chicken"
     },
     {
         "image_link": "https://2.bp.blogspot.com/-ya0q41YFKX0/V4iHM4v-iSI/AAAAAAAAEj8/RAr6CYNuRy4gO3iDVEgHMel4PK6E5G2mQCLcB/s1600/pork%2Bsinigang%2Bna%2Bbaboy.jpg",
         "recipe_name": "Sinigang na Baboy",
+        "description": "A sour and savory Filipino pork soup made with tamarind, vegetables, and a flavorful broth.",
         "ingredients": [
             "2 lbs pork belly",
             "8 cups water",
@@ -253,163 +268,6 @@
             "2 green chili peppers"
         ],
         "instructions": "Boil pork with water, onion, and tomatoes. Add radish and eggplant. Stir in sinigang mix and green chili. Add kangkong leaves. Simmer until vegetables are tender.",
-        "label":"pork"
-    },
-    {
-        "image_link": "https://www.atbp.ph/wp-content/uploads/2016/06/img_57650ae256d10.jpg",
-        "recipe_name": "Kare-Kare",
-        "ingredients": [
-            "2 lbs oxtail",
-            "1 banana heart",
-            "1 bunch string beans",
-            "1 eggplant",
-            "1 cup peanut butter",
-            "1/4 cup annatto seeds",
-            "1 onion",
-            "4 cloves garlic",
-            "2 tbsp shrimp paste"
-        ],
-        "instructions": "Boil oxtail until tender. Saut\u00e9 garlic and onion. Add peanut butter and annatto water. Add vegetables and simmer. Serve with shrimp paste.",
-        "label":"beef"
-    },
-    {
-        "image_link": "https://www.sentro1771.com/ews/wp-content/uploads/2023/06/Lechon-Kawali_V2-scaled.jpg",
-        "recipe_name": "Lechon Kawali",
-        "ingredients": [
-            "2 lbs pork belly",
-            "1 tbsp salt",
-            "1 tsp pepper",
-            "4 cups water",
-            "2 cups cooking oil"
-        ],
-        "instructions": "Boil pork belly with salt and pepper until tender. Let it cool and air dry. Deep-fry until crispy. Slice and serve with dipping sauce.",
-        "label":"pork"
-    },
-    {
-        "image_link": "https://cdn.sanity.io/images/f3knbc2s/production/b5318405e36335e00e82b10ffcf7b439fff513af-2500x1600.jpg",
-        "recipe_name": "Bistek Tagalog",
-        "ingredients": [
-            "2 lbs beef sirloin",
-            "1/4 cup soy sauce",
-            "2 lemons",
-            "2 onions",
-            "4 cloves garlic",
-            "1/4 cup cooking oil"
-        ],
-        "instructions": "Marinate beef in soy sauce and lemon juice. Fry garlic and onions. Add marinated beef and cook until tender. Serve with fried onions on top.",
-        "label":"beef"
-    },
-    {
-        "image_link": "https://scm-assets.constant.co/scm/unilever/e9dc924f238fa6cc29465942875fe8f0/862672b0-5ee3-4614-bfa5-a39085e87fdb.png",
-        "recipe_name": "Pancit Canton",
-        "ingredients": [
-            "200g pancit canton noodles",
-            "1/2 lb chicken breast",
-            "1/2 lb shrimp",
-            "1 carrot",
-            "1 cabbage",
-            "1 onion",
-            "4 cloves garlic",
-            "1/4 cup soy sauce",
-            "2 cups chicken broth"
-        ],
-        "instructions": "Saut\u00e9 garlic and onion. Add chicken and shrimp. Add vegetables. Pour in chicken broth and soy sauce. Add pancit canton noodles. 6. Simmer until noodles are cooked.",
-        "label":"other"
-    },
-    {
-        "image_link": "https://norecipes.com/wp-content/uploads/2018/05/filipino-tocino-recipe_009.jpg",
-        "recipe_name": "Tocino",
-        "ingredients": [
-            "2 lbs pork shoulder",
-            "1/2 cup pineapple juice",
-            "1/4 cup sugar",
-            "1/4 cup soy sauce",
-            "1 tbsp salt",
-            "1 tsp pepper",
-            "1/4 cup annatto water"
-        ],
-        "instructions": "Marinate pork in pineapple juice, sugar, soy sauce, salt, pepper, and annatto water. Let it sit overnight. Fry marinated pork until cooked. Serve with rice.",
-        "label":"pork"
-    },
-    {
-        "image_link": "https://i.pinimg.com/originals/42/ad/dd/42addde520bdfd47c7fa84106a3eec49.jpg",
-        "recipe_name": "Sisig",
-        "ingredients": [
-            "1 lb pork belly",
-            "1 lb pig's ear",
-            "2 onions",
-            "4 cloves garlic",
-            "1 chili pepper",
-            "1 egg",
-            "1/4 cup soy sauce",
-            "1/4 cup vinegar",
-            "1 lemon"
-        ],
-        "instructions": "Boil and grill pork belly and pig's ear. Chop into small pieces. Saut\u00e9 garlic and onion. Add chopped pork, soy sauce, and vinegar. Serve with egg on top.",
-        "label":"pork"
-    },
-    {
-        "image_link": "https://yummykitchentv.com/wp-content/uploads/2020/11/chicken-afritada-1500x822.jpg",
-        "recipe_name": "Chicken Afritada",
-        "ingredients": [
-            "2 lbs chicken",
-            "1 can tomato sauce",
-            "1 carrot",
-            "2 potatoes",
-            "1 bell pepper",
-            "1 onion",
-            "4 cloves garlic",
-            "1/4 cup soy sauce",
-            "2 cups water"
-        ],
-        "instructions": "Saut\u00e9 garlic and onion. Add chicken and cook until brown. Add tomato sauce and water. Add vegetables and simmer until tender.",
-        "label":"chicken"
-    },
-    {
-        "image_link": "https://www.angsarap.net/wp-content/uploads/2016/04/Crispy-Pata-Deep-Fried-Wide.jpg",
-        "recipe_name": "Crispy Pata",
-        "ingredients": [
-            "1 whole pork leg",
-            "1 tbsp salt",
-            "1 tsp pepper",
-            "4 cups water",
-            "2 cups cooking oil"
-        ],
-        "instructions": "Boil pork leg with salt and pepper until tender. Let it cool and air dry. Deep-fry until crispy. Slice and serve with dipping sauce.",
-        "label":"pork"
-    },
-    {
-        "image_link": "https://3.bp.blogspot.com/-GauxbLfzU_0/UCIWbM6f_HI/AAAAAAAAAQI/rYSuPzioX5k/s1600/DSC_9764.jpg",
-        "recipe_name": "Beef Mechado",
-        "ingredients": [
-            "2 lbs beef chuck",
-            "1 can tomato sauce",
-            "1 carrot",
-            "2 potatoes",
-            "1 bell pepper",
-            "1 onion",
-            "4 cloves garlic",
-            "1/4 cup soy sauce",
-            "2 cups water"
-        ],
-        "instructions": "Saut\u00e9 garlic and onion. Add beef and cook until brown. Add tomato sauce and water. Add vegetables and simmer until tender.",
-        "label":"beef"
-    },
-    {
-        "image_link": "https://i1.wp.com/www.angsarap.net/wp-content/uploads/2017/02/Pinakbet-Wide.jpg?fit=1080%2C720&ssl=1",
-        "recipe_name": "Pinakbet",
-        "ingredients": [
-            "1/2 lb pork belly",
-            "1 eggplant",
-            "1 bitter melon",
-            "1 squash",
-            "1 okra",
-            "1 tomato",
-            "1 onion",
-            "4 cloves garlic",
-            "1/4 cup shrimp paste"
-        ],
-        "instructions": "Saut\u00e9 garlic and onion. Add pork belly and cook until brown. Add shrimp paste and vegetables. Simmer until vegetables are tender.",
-        "label":"pork"
+        "label": "pork"
     }
 ]
