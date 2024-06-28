@@ -36,7 +36,6 @@ export default function RecipeDetails() {
             setLoading(false);
         } catch (error) {
             console.error('Error fetching data:', error);
-            setLoading(false);
         }
     };
 
@@ -52,7 +51,7 @@ export default function RecipeDetails() {
             <div className='min-h-screen'>
               {
                 loading ? (
-                  <Loader/>
+                    <Loader />
                 ) :
                 <>
                    {recipeDetails && (

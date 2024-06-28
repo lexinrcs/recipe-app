@@ -1,10 +1,45 @@
-'use client';
-import RecipeSection from "../components/recipe-section";
-import PhotoSlide from "../components/photo-slide";
-import { useRef} from "react";
+'use client'
+import Image from "next/image";
+import Head from "next/head";
+import { useState, useEffect } from "react";
+import { useRef } from "react";
+import PhotoSlide from "@/components/photo-slide";
+import RecipeSection from "@/components/recipe-section";
+
+interface Recipe {
+  image_link: string;
+  recipe_name: string;
+  ingredients: string[];
+  instructions: string;
+  label: string;
+};
 
 export default function Home() {
+  const [recipes, setRecipes] = useState<Recipe[]>([]);
   const recipesRef = useRef<HTMLDivElement>(null);
+
+  const fetchRecipes = async () => {
+    try {
+      const response = await fetch('/api/get-recipes', {
+        headers: {
+          Accept: 'application/json',
+          method: "GET",
+        }
+      });
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const data = await response.json();
+      setRecipes(data);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
+  
+  useEffect(() => {
+    fetchRecipes();
+    console.log(recipes);
+  }, []);
 
   const handleExploreClick = () => {
     setTimeout(() => {
@@ -20,7 +55,11 @@ const scrollToSection = (elementRef: React.RefObject<HTMLDivElement>) => {
 
 
   return (
-      <main className="flex flex-col">
+    <>
+      <Head>
+        <title>GFGL | Home</title>
+      </Head>
+      <div className="flex flex-col">
         {/* Welcome Section */}
         <div className="min-h-screen">          
           <div className="px-4 md:px-8 lg:px-12 xl:px-16 py-2 flex items-center flex-col mt-[120px] lg:space-x-8 lg:flex-row lg:mt-[200px]">
@@ -44,8 +83,11 @@ const scrollToSection = (elementRef: React.RefObject<HTMLDivElement>) => {
         {/* Recipes Section */}
         <div ref={recipesRef} className="space-y-8">
           <h1 className="text-4xl font-bold font-playfair text-center pt-[130px] md:text-5xl lg:text-7xl">RECIPES</h1>
-          <RecipeSection/>
+          <RecipeSection />
         </div>
-      </main>
+      </div>
+    
+    </>
+
   );
 }
